@@ -1,6 +1,6 @@
 {
   "name": "@gui-chat-plugin/scroll-to-anchor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Scroll to anchor plugin for GUIChat",
   "type": "module",
   "main": "./dist/index.cjs",
