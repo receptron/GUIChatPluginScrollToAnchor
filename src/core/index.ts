@@ -6,10 +6,4 @@
 export type { ScrollToAnchorArgs } from "./types";
 
 // Export plugin utilities
-export {
-  TOOL_NAME,
-  TOOL_DEFINITION,
-  SYSTEM_PROMPT,
-  executeScrollToAnchor,
-  pluginCore,
-} from "./plugin";
+export { TOOL_NAME, TOOL_DEFINITION, SYSTEM_PROMPT, executeScrollToAnchor, pluginCore } from "./plugin";

@@ -16,10 +16,7 @@ export { TOOL_NAME, TOOL_DEFINITION, SYSTEM_PROMPT } from "./definition";
 // context is nullable on purpose: hosts that run the plugin without client-side
 // state (MulmoClaude's server bridge) pass an empty or missing context, and
 // reading through it unguarded threw a TypeError instead of returning a result.
-export const executeScrollToAnchor = async (
-  context: ToolContext | null | undefined,
-  args: ScrollToAnchorArgs,
-): Promise<ToolResult> => {
+export const executeScrollToAnchor = async (context: ToolContext | null | undefined, args: ScrollToAnchorArgs): Promise<ToolResult> => {
   const { anchorId } = args;
 
   // We need to update the current result's viewState to trigger scrolling
