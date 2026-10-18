@@ -20,13 +20,7 @@ export const plugin: ToolPlugin<unknown, unknown, ScrollToAnchorArgs> = {
 export type { ScrollToAnchorArgs } from "../core/types";
 
 // Re-export utilities
-export {
-  TOOL_NAME,
-  TOOL_DEFINITION,
-  SYSTEM_PROMPT,
-  executeScrollToAnchor,
-  pluginCore,
-} from "../core/plugin";
+export { TOOL_NAME, TOOL_DEFINITION, SYSTEM_PROMPT, executeScrollToAnchor, pluginCore } from "../core/plugin";
 
 // Default export for MulmoChat compatibility
 export default { plugin };

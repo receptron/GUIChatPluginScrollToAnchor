@@ -9,15 +9,13 @@ export const TOOL_NAME = "scrollToAnchor";
 export const TOOL_DEFINITION: ToolDefinition = {
   type: "function",
   name: TOOL_NAME,
-  description:
-    "Scroll the current document view to a specific anchor tag. Use this when reading recipe steps aloud or navigating to specific sections.",
+  description: "Scroll the current document view to a specific anchor tag. Use this when reading recipe steps aloud or navigating to specific sections.",
   parameters: {
     type: "object",
     properties: {
       anchorId: {
         type: "string",
-        description:
-          'The ID of the anchor tag to scroll to (e.g., "step-1", "step-2"). Should match the anchor IDs in the document.',
+        description: 'The ID of the anchor tag to scroll to (e.g., "step-1", "step-2"). Should match the anchor IDs in the document.',
       },
     },
     required: ["anchorId"],
