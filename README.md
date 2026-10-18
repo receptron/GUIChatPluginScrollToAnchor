@@ -1,6 +1,7 @@
 # @gui-chat-plugin/scroll-to-anchor
 
 [![npm version](https://badge.fury.io/js/%40gui-chat-plugin%2Fscroll-to-anchor.svg)](https://www.npmjs.com/package/@gui-chat-plugin/scroll-to-anchor)
+[![scoria](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/receptron/GUIChatPluginScrollToAnchor/badges/scoria.json)](https://github.com/receptron/GUIChatPluginScrollToAnchor/actions/workflows/scoria.yml)
 
 A scroll-to-anchor plugin for [MulmoChat](https://github.com/receptron/MulmoChat).
 
